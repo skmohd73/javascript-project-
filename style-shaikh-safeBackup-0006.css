@@ -1,0 +1,23 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(city.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;  
+    align-items:center;
+    border:2px solid;
+    height:100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size:5em;
+    font-weight:bold;
+    text-align:center;
+    color: rgb(25, 91, 168);
+}
